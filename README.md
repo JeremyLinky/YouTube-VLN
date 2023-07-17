@@ -8,7 +8,7 @@
 
 
 <p align="center">
-  <img src="readme/cute.png" align="center" width="20%">
+  <img src="figs/cute.png" align="center" width="20%">
   
   <h3 align="center"><strong>Learning Vision-and-Language Navigation from YouTube Videos</strong></h3>
 

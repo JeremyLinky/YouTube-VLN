@@ -5,10 +5,11 @@ Install and activate the conda environment for YouTube-VLN dataset
 conda env create -f scripts/env.yaml
 conda activate YouTube-VLN
 ```
-or install the environment by (some packages may be missed you need to refer to the *requirements.txt* to install manually. )
+or install the environment by
 ```bash
 pip install -r requirements.txt
 ```
+Some packages may be missed you need to refer to the *requirements.txt* to install manually. 
 
 # :tv: Firstly, we need to get the YouTube videos and frames
 

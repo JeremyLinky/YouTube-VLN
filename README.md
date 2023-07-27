@@ -45,11 +45,11 @@ This project is developed with Python 3.6.13, Pytorch 1.10.1. Please install dep
 conda env create -f env.yaml
 conda activate lily
 ```
-or install the environment by (some packages may be missed you need to refer to the *requirements.txt* to install manually. )
+or install the environment by
 ```bash
 pip install -r requirements.txt
 ```
-It would be better to install apex==0.1.
+Some packages may be missed you need to refer to the *requirements.txt* to install manually. 
 
 ## Preparing dataset
 

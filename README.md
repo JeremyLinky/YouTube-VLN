@@ -1,10 +1,3 @@
-<!-- # [ICCV'23] Learning Vision-and-Language Navigation from YouTube Videos -->
-
-<!-- [![MIT](https://img.shields.io/badge/License-MIT-green.svg)](./LICENSE.md)
-[![arXiv](https://img.shields.io/badge/arXiv-xxx.xxx-red.svg)](https://arxiv.org/abs/2108.09105)
-[![ICCV 2023](https://img.shields.io/badge/ICCV-2023-blue.svg)](http://iccv2021.thecvf.com/home) -->
-
-
 
 
 <p align="center">

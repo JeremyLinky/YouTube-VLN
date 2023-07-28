@@ -1,5 +1,4 @@
 # :satisfied: Instrutions for building up YouTube-VLN dataset
-This step needs to download [videos.npy](https://drive.google.com/file/d/1yJSOnPsnSH6ndp92_5CCawEIHT6RoMhy/view?usp=drive_link) and put it into *data/YouTube-VLN*.
 Install and activate the conda environment for YouTube-VLN dataset
 ```bash
 conda env create -f scripts/env.yaml
@@ -14,6 +13,7 @@ Some packages may be missed you need to refer to the *requirements.txt* to insta
 # :tv: Firstly, we need to get the YouTube videos and frames
 
 ## 1. Prepare YouTube Videos
+This step needs to download [videos.npy](https://drive.google.com/file/d/1yJSOnPsnSH6ndp92_5CCawEIHT6RoMhy/view?usp=drive_link) and put it into *data/YouTube-VLN*.
 ```bash
 python -m scripts.video_process.download_youtube
 # Download the videos according to the video ids

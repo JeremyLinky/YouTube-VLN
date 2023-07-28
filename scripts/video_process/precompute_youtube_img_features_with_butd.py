@@ -5,9 +5,9 @@ Script to precompute image features using bottom-up attention
 """
 import sys  
 import shutil
-sys.path.append('/mnt/cephfs/home/lance/Projects/bottom-up-attention') 
-sys.path.append('/mnt/cephfs/home/lance/Projects/bottom-up-attention/caffe/python') 
-sys.path.insert(0,'/mnt/cephfs/home/lance/Projects/bottom-up-attention/lib') # Raise priorities and avoid conflicts
+sys.path.append('your_path/bottom-up-attention') 
+sys.path.append('your_path/bottom-up-attention/caffe/python') 
+sys.path.insert(0,'your_path/bottom-up-attention/lib') # Raise priorities and avoid conflicts
 
 from pathlib import Path
 import base64
@@ -89,7 +89,7 @@ MIN_SIZE: int = 800
 
 
 class Arguments(argtyped.Arguments):
-    caffe_root: Path = Path("/mnt/cephfs/home/lance/Projects/bottom-up-attention")
+    caffe_root: Path = Path("your_path/bottom-up-attention")
     proto: Path = Path("models/vg/ResNet-101/faster_rcnn_end2end_final/test.prototxt")
     model: Path = Path("data/faster_rcnn_models/resnet101_faster_rcnn_final.caffemodel")
     cfg_file: Path = Path("experiments/cfgs/faster_rcnn_end2end_resnet.yml")

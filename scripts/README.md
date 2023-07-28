@@ -1,5 +1,5 @@
 # :satisfied: Instrutions for building up YouTube-VLN dataset
-
+This step needs to download [videos.npy](https://drive.google.com/file/d/1yJSOnPsnSH6ndp92_5CCawEIHT6RoMhy/view?usp=drive_link) and put it into *data/YouTube-VLN*.
 Install and activate the conda environment for YouTube-VLN dataset
 ```bash
 conda env create -f scripts/env.yaml
@@ -29,9 +29,9 @@ python -m scripts.video_process.extract_rawframes
 # :mag: Secondly, we need to generate the features of frames
 
 ## 3. Extract bottom-up top-down features
-This step needs the install of [bottom-up top-down attention](https://github.com/peteanderson80/bottom-up-attention.git).
+This step needs the installation of [bottom-up top-down attention](https://github.com/peteanderson80/bottom-up-attention.git).
 
-We split the features into 11 parts. In order to speed up the feature extraction, we use two servers to extract features respectively. One of them uses 8 GPUs to extract and generate the first 8 parts, and the other uses 3 GPUs to generate the last 3 parts. The number of gpus is equal to the number of workers, and *--start* indicates which part to start extracting features from.
+We split the features into 11 parts. In order to speed up the feature extraction, we use two servers to extract features respectively. One uses 8 GPUs to extract and generate the first 8 parts, and the other uses 3 GPUs to generate the last 3 parts. The number of gpus equals the number of workers, and *--start* indicates which part to start extracting features from.
 ```bash
 python -m scripts.video_process.precompute_youtube_img_features_with_butd --gpu "0,1,2,3,4,5,6,7" --num-workers 8 --start 0 --num-splits 11
 

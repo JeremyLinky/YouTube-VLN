@@ -14,7 +14,7 @@
       <a href="https://scholar.google.com/citations?user=PTeSCbIAAAAJ" target='_blank'>Chuang Gan</a><sup>3 4</sup>&nbsp;&nbsp;&nbsp;
     <br>
   <sup>1</sup>South China University of Technology&nbsp;&nbsp;&nbsp;
-  <sup>2</sup>Key Laboratory of Big Data and Intelligent Robot, Ministry of Education&nbsp;&nbsp;&nbsp;
+  <sup>2</sup>Information Technology R&D Innovation Center of Peking University&nbsp;&nbsp;&nbsp;
   <sup>3</sup>UMass Amherst&nbsp;&nbsp;&nbsp;
   <sup>4</sup>MIT-IBM Watson AI Lab&nbsp;&nbsp;&nbsp;
   <sup>5</sup>Key Laboratory of Big Data and Intelligent Robot, Ministry of Education&nbsp;&nbsp;&nbsp;
